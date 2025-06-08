@@ -1,0 +1,47 @@
+# Файлы IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
+/nbproject/private/
+
+# Файлы сборки (Maven/Gradle)
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+
+# Исключения для Maven/Gradle Wrapper JARs within build dirs
+!.mvn/wrapper/maven-wrapper.jar
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.temp
+*.cache
+hs_err_pid*.log
+*.hprof
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Allure reports
+.allure/ # Add this line
+
+# Важные файлы проекта
+!pom.xml
+!README.md
+!.gitignore
+!*.md
